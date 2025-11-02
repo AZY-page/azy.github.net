@@ -1,0 +1,453 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup3",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup3",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup3",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup3",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup3",
+			"Name": "左眼　微笑"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup3",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup3",
+			"Name": "右眼　微笑"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup3",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup3",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "Param45",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉高度"
+		},
+		{
+			"Id": "Param46",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup3",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup3",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup3",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup",
+			"Name": "舌头"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup",
+			"Name": "牙"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup",
+			"Name": "泪"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup",
+			"Name": "汉"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "ParamGroup",
+			"Name": "皱眉"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "ParamGroup",
+			"Name": "皱鼻"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "ParamGroup",
+			"Name": "星星眼"
+		},
+		{
+			"Id": "Param44",
+			"GroupId": "ParamGroup",
+			"Name": "高光"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup",
+			"Name": "发型"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "ParamGroup",
+			"Name": "发型1"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup",
+			"Name": "脸颊泛红"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "ParamGroup",
+			"Name": "衣服1"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "ParamGroup",
+			"Name": "相机"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "ParamGroup",
+			"Name": "睡衣"
+		},
+		{
+			"Id": "Param27",
+			"GroupId": "ParamGroup",
+			"Name": "天使"
+		},
+		{
+			"Id": "Param39",
+			"GroupId": "ParamGroup",
+			"Name": "讨伐棒"
+		},
+		{
+			"Id": "Param28",
+			"GroupId": "ParamGroup",
+			"Name": "胳膊变化"
+		},
+		{
+			"Id": "Param31",
+			"GroupId": "ParamGroup",
+			"Name": "胳膊"
+		},
+		{
+			"Id": "Param41",
+			"GroupId": "ParamGroup",
+			"Name": "吉他胳膊"
+		},
+		{
+			"Id": "Param40",
+			"GroupId": "ParamGroup",
+			"Name": "竹蜻蜓透明度"
+		},
+		{
+			"Id": "Param29",
+			"GroupId": "",
+			"Name": "竹蜻蜓"
+		},
+		{
+			"Id": "Param30",
+			"GroupId": "",
+			"Name": "竹蜻蜓爪小八"
+		},
+		{
+			"Id": "Param32",
+			"GroupId": "",
+			"Name": "吉他"
+		},
+		{
+			"Id": "Param33",
+			"GroupId": "",
+			"Name": "1"
+		},
+		{
+			"Id": "Param34",
+			"GroupId": "",
+			"Name": "2"
+		},
+		{
+			"Id": "Param35",
+			"GroupId": "",
+			"Name": "3"
+		},
+		{
+			"Id": "Param37",
+			"GroupId": "",
+			"Name": "参数56"
+		},
+		{
+			"Id": "Param38",
+			"GroupId": "",
+			"Name": "参数57"
+		},
+		{
+			"Id": "Param42",
+			"GroupId": "",
+			"Name": "参数58"
+		},
+		{
+			"Id": "Param43",
+			"GroupId": "",
+			"Name": "参数59"
+		},
+		{
+			"Id": "Param26",
+			"GroupId": "ParamGroup2",
+			"Name": "光环"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "ParamGroup2",
+			"Name": "耳朵物理"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "ParamGroup2",
+			"Name": "耳朵物理1"
+		},
+		{
+			"Id": "Param36",
+			"GroupId": "ParamGroup2",
+			"Name": "尾巴2"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "ParamGroup2",
+			"Name": "尾巴"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "ParamGroup2",
+			"Name": "尾巴1"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "ParamGroup2",
+			"Name": "尾巴2"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "ParamGroup2",
+			"Name": "尾巴3"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "ParamGroup2",
+			"Name": "尾巴4"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "ParamGroup2",
+			"Name": "参数41"
+		},
+		{
+			"Id": "Param23",
+			"GroupId": "ParamGroup2",
+			"Name": "参数42"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "ParamGroup2",
+			"Name": "参数39"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "ParamGroup2",
+			"Name": "参数40"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "ParamGroup2",
+			"Name": "参数43"
+		},
+		{
+			"Id": "Param25",
+			"GroupId": "ParamGroup2",
+			"Name": "参数44"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "身体"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "表情"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "物理"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part6",
+			"Name": "xiaoba.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part5",
+			"Name": "xiaoba.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part4",
+			"Name": "xiaoba.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part3",
+			"Name": "xiaoba.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part2",
+			"Name": "xiaoba.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part",
+			"Name": "xiaoba.psd(未找到对应图层)"
+		},
+		{
+			"Id": "zhuangshi",
+			"Name": "zhuangshi"
+		},
+		{
+			"Id": "biaoqing",
+			"Name": "biaoqing"
+		},
+		{
+			"Id": "yanmei",
+			"Name": "yanmei"
+		},
+		{
+			"Id": "saihong",
+			"Name": "saihong"
+		},
+		{
+			"Id": "zuiba",
+			"Name": "zuiba"
+		},
+		{
+			"Id": "erduo",
+			"Name": "erduo"
+		},
+		{
+			"Id": "tuceng_62_Skinning",
+			"Name": "tuceng_16(蒙皮)"
+		},
+		{
+			"Id": "jita2",
+			"Name": "jita"
+		},
+		{
+			"Id": "erduo4",
+			"Name": "erduo"
+		},
+		{
+			"Id": "erduo3",
+			"Name": "erduo"
+		},
+		{
+			"Id": "fengji2",
+			"Name": "fengji"
+		},
+		{
+			"Id": "jita",
+			"Name": "jita"
+		},
+		{
+			"Id": "fengji",
+			"Name": "fengji"
+		},
+		{
+			"Id": "erduo2",
+			"Name": "erduo"
+		},
+		{
+			"Id": "zhuangshi2",
+			"Name": "zhuangshi"
+		},
+		{
+			"Id": "yifu1",
+			"Name": "yifu1"
+		},
+		{
+			"Id": "yifu2",
+			"Name": "yifu2"
+		},
+		{
+			"Id": "yifu4",
+			"Name": "yifu2"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"Param22",
+			"Param23"
+		],
+		[
+			"Param20",
+			"Param21"
+		],
+		[
+			"Param24",
+			"Param25"
+		]
+	]
+}

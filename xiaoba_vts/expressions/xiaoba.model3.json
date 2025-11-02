@@ -1,0 +1,90 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "xiaoba.moc3",
+		"Textures": [
+			"xiaoba.2048/texture_00.png",
+			"xiaoba.2048/texture_01.png",
+			"xiaoba.2048/texture_02.png",
+			"xiaoba.2048/texture_03.png",
+			"xiaoba.2048/texture_04.png",
+			"xiaoba.2048/texture_05.png"
+		],
+		"Physics": "xiaoba.physics3.json",
+		"DisplayInfo": "xiaoba.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "expression1",
+				"File": "expressions/she.exp3.json"
+			},
+			{
+				"Name": "expression2",
+				"File": "ya.exp3.json"
+			},
+			{
+				"Name": "expression3",
+				"File": "lei.exp3.json"
+			},
+			{
+				"Name": "expression4",
+				"File": "han.exp3.json"
+			},
+			{
+				"Name": "expression5",
+				"File": "zhoumei.exp3.json"
+			},
+			{
+				"Name": "expression6",
+				"File": "xingxingyan.exp3.json"
+			},
+			{
+				"Name": "expression7",
+				"File": "faxing.exp3.json"
+			},
+			{
+				"Name": "expression8",
+				"File": "lianhong.exp3.json"
+			},
+			{
+				"Name": "expression9",
+				"File": "xiangji.exp3.json"
+			},
+			{
+				"Name": "expression10",
+				"File": "shuiyi.exp3.json"
+			},
+			{
+				"Name": "expression11",
+				"File": "tianshi.exp3.json"
+			},
+			{
+				"Name": "expression12",
+				"File": "taofabang.exp3.json"
+			},
+			{
+				"Name": "expression13",
+				"File": "jita.exp3.json"
+			},
+			{
+				"Name": "expression14",
+				"File": "zhuqingting.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

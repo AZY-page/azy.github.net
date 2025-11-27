@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -753,7 +752,7 @@
                         <option value="1" data-name="MMKV">MMKV </option>
                         <option value="2" data-name="XMFLV">XMFLV </option>
                         <option value="3" data-name="PlayerJY">PlayerJY </option>
-                        <option value="4" data-name="AIDOUER">AIDOUER </option>
+                        <option value="4" data-name="QIANQI">QIANQI {需输入影视名称} </option>
                     </select>
                 </div>
                 
@@ -882,7 +881,7 @@
                 "1": {"name": "MMKV", "url": "https://jx.mmkv.cn/tv.php?url="},
                 "2": {"name": "XMFLV", "url": "https://jx.xmflv.com/?url="},
                 "3": {"name": "PlayerJY", "url": "https://jx.playerjy.com/?url="},
-                "4": {"name": "qianqi", "url": "https://api.qianqi.net/vip/?url="}
+                "4": {"name": "QIANQI", "url": "https://api.qianqi.net/vip/?url="}
             },
             platforms: {
                 'youku': ['优酷', ['youku.com']],
@@ -1216,7 +1215,12 @@
         }
         
         // 验证URL是否有效
-        function isValidUrl(url) {
+        function isValidUrl(url, interfaceId = null) {
+            // 为qianqi接口添加后门，完全绕过URL格式验证
+            if (interfaceId === '4') {
+                return true;
+            }
+            
             // 常见的URL格式正则表达式
             const urlPattern = /^(?:http|ftp)s?:\/\/(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)|localhost|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})(?::\d+)?(?:\/?|[\/?]\S+)$/i;
             
@@ -1231,7 +1235,7 @@
         
         // 解析并播放视频
         function parseAndPlay(url, interfaceId) {
-            if (!url || !isValidUrl(url)) {
+            if (!url || !isValidUrl(url, interfaceId)) {
                 showStatus('请输入有效的视频链接', 'error');
                 return;
             }

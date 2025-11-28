@@ -5,7 +5,7 @@ const announcements = [
   {
     id: 1,
     title: '油猴插件更新通知',
-    content: '油猴插件版已更新，更加方便，<a href="https://file.zhangyichi.dev/uploads/69284615a01d2_1764247061.7z" class="download-link inline-flex items-center px-4 py-2 bg-primary text-white rounded-full hover:bg-primary/90 transition-all hover:shadow-md">【点击下载】<i class="fa fa-download ml-2"></i></a>',
+    content: '油猴插件版已更新，更加方便，<a href="https://pan.tenire.com/down.php/795a1e333ab290bdd658b3e034ae3a29.7z" class="download-link inline-flex items-center px-4 py-2 bg-primary text-white rounded-full hover:bg-primary/90 transition-all hover:shadow-md">【点击下载】<i class="fa fa-download ml-2"></i></a>',
     date: new Date().toLocaleDateString('zh-CN'),
     isImportant: true
   }
